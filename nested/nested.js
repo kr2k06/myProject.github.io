@@ -89,7 +89,7 @@ function renderChart(){
 
 
     // load the data
-    d3.json("nested/data.json", function(error, data) {
+    d3.json("myProject.github.io/nested/data.json", function(error, data) {
 
         data.forEach(function(d) {
             d.Letter = d.Letter;
